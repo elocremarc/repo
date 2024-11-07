@@ -1,0 +1,18 @@
+{
+  "name": "repo-reader",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "src/index.ts",
+  "bin": {
+    "repo": "./src/index.ts"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "enquirer": "^2.4.1",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.13",
+    "bun-types": "latest"
+  }
+}
